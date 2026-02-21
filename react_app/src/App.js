@@ -80,7 +80,7 @@ function App() {
         </div>
 
         <div style={{ marginBottom: "12px" }}>
-          <label htmlFor="password">Password</label>
+          <label htmlFor="password">Main Password</label>
           <input
             id="password"
             name="password"
