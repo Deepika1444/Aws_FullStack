@@ -54,7 +54,7 @@ function App() {
       <h2>Registration Form</h2>
       <form onSubmit={handleSubmit}>
         <div style={{ marginBottom: "12px" }}>
-          <label htmlFor="fullName">Full Name</label>
+          <label htmlFor="fullName">Full_Name</label>
           <input
             id="fullName"
             name="fullName"
@@ -67,7 +67,7 @@ function App() {
         </div>
 
         <div style={{ marginBottom: "12px" }}>
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">Email ID</label>
           <input
             id="email"
             name="email"
