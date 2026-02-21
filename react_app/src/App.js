@@ -24,13 +24,13 @@ function App() {
       return;
     }
 
-    fetch("http://3.110.170.32:5000/api/register", {
+    fetch("http://13.201.68.8:5000/api/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(formData),
-    })
+    })  
       .then(async (response) => {
         const data = await response.json();
         if (!response.ok) {
