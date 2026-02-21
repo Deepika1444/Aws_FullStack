@@ -24,7 +24,7 @@ function App() {
       return;
     }
 
-    fetch("http://65.0.203.86:5000/api/register", {
+    fetch("http://3.110.170.32:5000/api/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
