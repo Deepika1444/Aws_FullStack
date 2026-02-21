@@ -26,4 +26,4 @@ jobs:
             docker rm frontend || true
             docker rmi frontend || true
             docker build -t frontend -f react_app/Dockerfile react_app/
-            docker run -d -p 3000:3000 --name frontend frontend
+            docker run -d -p 3000:3000 --name fe frontend
